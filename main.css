@@ -1,0 +1,41 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #282E34;
+}
+
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+text {
+	alignment-baseline: middle;
+	fill: #DDD;
+}
+
+.axis line {
+  fill: none;
+  stroke: #FFF;
+  stroke-width: 1.5px;
+}
+
+.graph .axis path {
+	stroke: #FFF;
+}
+
+.graph path {
+	stroke: #777;
+	stroke-width: 2;
+}
+
+.search rect {
+	stroke: #777;
+	stroke-width: 2;
+}
+
+.legend rect {
+	stroke: #777;
+	stroke-width: 2px;
+}
